@@ -34,7 +34,7 @@ To upload our web contents to the container we would make use of a tool called A
 
 Remember the primary endpoint link `https://statichost.z29.web.core.windows.net/` that was generated when you enabled static website on your storage account? now that is the link for your end users to access your content on the public web.
 
-Watch the below Primary Endpoint from Blob Storage for access the static content 👇
+**Watch the below Primary Endpoint from Blob Storage for access the static content** 👇
 
 ![workflow](assets/screenshots/load_static.gif)
 
@@ -44,7 +44,7 @@ Azure Front Door and Azure CDN are both Azure services that offer global content
 In our usecase, We use `Azure Front Door`. Azure Front Door is Microsoft's advanced cloud Content Delivery Network (CDN) designed to provide fast, reliable, and secure access to your applications' static and dynamic web content globally. Please read the [official documentation](https://learn.microsoft.com/en-us/azure/frontdoor/front-door-overview) for more details.
 
 Click on Front Door and CDN on the left pane under the `security + networking` and create a new endpoint.
-- Service Type    : Select Azure Front Door (Recommended)
+- **Service Type    :** Select Azure Front Door (Recommended)
 - Create new/use existing profile
 - **Profile name    :** Provide any appropriate name
 - **Endpoint name   :** Provide any appropriate name
@@ -74,7 +74,7 @@ Once Origin group, Origin, and Route is configured, you can access the static pa
 
 **Note:** It would take some time for Azure Front Door to load your content you might get the blue screen error or "the account being accessed does not support http" error. Just give it sometime and refresh after some minutes.
 
-Watch the below Azure Front Door Endpoint URL for access the static web page 👇
+**Watch the below Azure Front Door Endpoint URL for access the static web page** 👇
 
 ![workflow](assets/screenshots/load_cdn.gif)
 
@@ -180,7 +180,7 @@ Check Domain Status in Portal:
 
 **Open in your browser:** `https://staticpage.vigneshsaravanan.online` and access your static webpage
 
-Watch the below Custom Domain URL for access the static web page 👇
+**Watch the below Custom Domain URL for access the static web page** 👇
 
 ![workflow](assets/screenshots/static_page_via_custom_domain.gif)
 
