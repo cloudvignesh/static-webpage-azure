@@ -1,4 +1,4 @@
-# Hosting a Static Website on Azure Storage with Azure CDN
+# Hosting a Static Website on Azure Storage with Azure Front Door and Azure DNS Zones
 This project demonstrates how to host a static website using an Azure Storage Account (Blob container) integrated with Azure Front Door. It also explains how to configure Azure DNS for custom domain hosting and access the static website through the custom domain.
 
 ## Benefits of hosting a static website on Azure ?
@@ -12,6 +12,7 @@ Combining Azure Front Door with blob storage provides a low-cost and highly reli
 - Create a Subscription
 - Create a Resource Group and Storage Account
 - Have a registered domain (Optional)
+
 **Note:** To those that are new to the Azure platform, when you create a free account, you get a $200 free Azure credit to create resources for 30 days and a subscription is automatically created.
 
 ## Outline of workflow
